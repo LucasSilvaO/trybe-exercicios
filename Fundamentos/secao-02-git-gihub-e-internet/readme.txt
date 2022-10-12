@@ -1,0 +1,1 @@
+Aqui irei armazenar os exercícios da seção 2 da Trybe.
