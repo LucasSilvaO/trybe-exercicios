@@ -3,15 +3,18 @@ div:hover{
 }
 .primaria {
     background-color: yellow;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
 }
 .secundaria {
     background-color: orange;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .complementar{
+    font-size: 30px;
     background-color: violet;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
 }
 .escura{
     background-color: darkblue;
@@ -21,6 +24,7 @@ div:hover{
 .clara{
     background-color: bisque;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
 } 
 
 .escura:hover{
