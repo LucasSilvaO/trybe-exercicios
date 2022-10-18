@@ -20,3 +20,27 @@ li {
 li em {
     font-weight: bold;
 }
+ul li.first{
+    color: blue;
+}
+ul li.java{
+    background-color: pink;
+}
+ul.hover li:hover{
+    font-weight: bold;   
+}
+ul li.stack:hover{
+    color: orange;
+}
+ul li.w3s:hover{
+    color: green;
+}
+ul li.mdn:hover{
+    color: black;
+}
+ul li.DevDocs:hover{
+    color: yellow;
+}
+ul li.trybe:hover{
+    color: greenyellow;
+}
