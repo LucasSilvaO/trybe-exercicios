@@ -20,6 +20,19 @@ nav h3{
     
 
 }
+.classificacao{
+    text-align: center;
+    list-style-type: none;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 150px;
+    margin: 10px;
+}
+.classificacao li{
+    list-style-type: none;
+}
+
+
 .fatos {
     background-color: aliceblue;
     padding: 100px;
