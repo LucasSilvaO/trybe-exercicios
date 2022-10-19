@@ -82,12 +82,17 @@ aside{
     text-align: center;
     padding: 20px;
     background-color: blanchedalmond;
-    border-radius: 100px;
+    border-radius: 150px;
 }
 .referencias{
-    background-color: aliceblue;
+    text-align: center;
+    background-color: blanchedalmond;
     padding: 10px;
     border-radius: 150px;
     margin: 10px;
+
+}
+.referencias li{
+    list-style-type: none;
 
 }
