@@ -3,16 +3,22 @@
 body{
     background-color: burlywood;
 }
+header h1{
+    text-align: center;
+}
+nav{
+    text-align: center;
+    background-color: aquamarine;
+}
 nav h3{
     display: inline-block;
-    padding: 5px 5px;
+    padding: 10px 80px;
     background-color: aquamarine;
     border: 0px;
+    margin: 0px 90px;
+  
     
-}
-#golpeadortitle{
-    display: inline-block;
-    margin-bottom: 100px;
+
 }
 .fatos {
     background-color: aliceblue;
@@ -25,8 +31,29 @@ section.fatos  p{
     margin-left: 420px;
     margin-top: 100px;
 }
+
+
+section p.fato{
+    margin-top: 50px;
+    font-size: 25px;
+}
+section h3.fact-title{
+    font-size: 40px;
+    margin-top: 10px;
+}
 #boxe {
     position: absolute;
-    top: 600px;
+    top: 580px;
     left: 100px;
+}
+#olhos {
+    position: absolute;
+    top: 1100px;
+    left: 100px;
+    border-radius: 30px;
+}
+#flash{
+    position: absolute;
+    left: 100px;
+    top: 1750px;
 }
