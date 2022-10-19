@@ -1,7 +1,7 @@
 
 
 body{
-    background-color: burlywood;
+    background-color: rgb(100, 200, 250)
 }
 header h1{
     text-align: center;
@@ -20,6 +20,9 @@ nav h3{
     
 
 }
+
+
+
 .classificacao{
     text-align: center;
     list-style-type: none;
@@ -28,8 +31,12 @@ nav h3{
     border-radius: 150px;
     margin: 10px;
 }
+section.classificacao h3{
+    font-size: 30px;
+}
 .classificacao li{
     list-style-type: none;
+    font-size: 25px;
 }
 
 
@@ -56,17 +63,31 @@ section h3.fact-title{
 }
 #boxe {
     position: absolute;
-    top: 580px;
+    top: 750px;
     left: 100px;
 }
 #olhos {
     position: absolute;
-    top: 1100px;
+    top: 1270px;
     left: 100px;
     border-radius: 30px;
 }
 #flash{
     position: absolute;
     left: 100px;
-    top: 1750px;
+    top: 1900px;
+}
+aside{
+    font-size: 25px;
+    text-align: center;
+    padding: 20px;
+    background-color: blanchedalmond;
+    border-radius: 100px;
+}
+.referencias{
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 150px;
+    margin: 10px;
+
 }
