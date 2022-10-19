@@ -1,0 +1,32 @@
+
+
+body{
+    background-color: burlywood;
+}
+nav h3{
+    display: inline-block;
+    padding: 5px 5px;
+    background-color: aquamarine;
+    border: 0px;
+    
+}
+#golpeadortitle{
+    display: inline-block;
+    margin-bottom: 100px;
+}
+.fatos {
+    background-color: aliceblue;
+    padding: 100px;
+    border-radius: 150px;
+    margin: 10px;
+}
+section.fatos  p{
+    display: inline-block;
+    margin-left: 420px;
+    margin-top: 100px;
+}
+#boxe {
+    position: absolute;
+    top: 600px;
+    left: 100px;
+}
