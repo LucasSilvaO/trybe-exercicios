@@ -1,0 +1,12 @@
+1. Tomar um banho.  
+2. Escolher uma cueca.
+3. Vestir a cueca escolhida.
+4. Escolher uma calça.
+5 Vestir a calça escolhida.
+6. Escolher uma camisa.
+7. Vestir a camisa escolhida.
+8. Escolher uma meia e um tênis.
+9. Calçar a meia e o tênis.
+10. Avaliar se está frio.
+11. Se estiver frio pegar casaco
+12. Ir para a festa.
