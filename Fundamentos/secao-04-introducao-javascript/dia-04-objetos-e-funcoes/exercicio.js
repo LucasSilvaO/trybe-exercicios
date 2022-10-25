@@ -19,10 +19,16 @@ let info = {
     origem: 'Pato Christmas on Bear Mountain, Dell s Four Color Comics #178',
     nota: 'O último MacPatinhas',
     recorrente: 'sim'
-  };
-  console.log(info.personagem + " e " + info2.personagem)
-  console.log(info.origem + " e " + info2.origem)
-  console.log(info.nota + " e " + info2.nota)    
-  if(info.recorrente === info2.recorrente){
-    console.log("Ambos recorrentes.");
   }
+
+for (let properties in info) {
+    if (
+      properties === 'recorrente' &&
+      info[properties] === 'sim' &&
+      info2[properties] === 'sim'
+    ) {
+      console.log('Ambos recorrentes');
+    } else {
+      console.log(info[properties] + ' e ' + info2[properties]);
+    }
+}
