@@ -3,7 +3,7 @@ const valorVenda = 1500
 
 let valorCustoTotal = valorCusto + ( valorCusto * 0.20)
 let lucro = valorVenda - valorCustoTotal
-let vendas = -2
+let vendas = 1000
 
 if(vendas === 1000){
     lucroTotal = lucro * 1000
