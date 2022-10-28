@@ -14,3 +14,5 @@ const maiorPalavra = (frase) => {
     return maiorPalavra
 }
 console.log(maiorPalavra(`Com a crise a corda arrebentou do lado mais fraco e os estagiários saíram da empresa`))
+
+
