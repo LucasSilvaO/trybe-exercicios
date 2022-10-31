@@ -1,0 +1,25 @@
+<main id="paiDoPai">
+    <section id="pai">
+      <section id="primeiroFilho"></section>
+      <section id="elementoOndeVoceEsta">
+        <section id="primeiroFilhoDoFilho"></section>
+        <section id="segundoEUltimoFilhoDoFilho"></section>
+      </section>
+      Atenção!
+      <section id="terceiroFilho"></section>
+      <section id="quartoEUltimoFilho"></section>
+    </section>
+    <script>
+        const pai = document.getElementById('pai')
+        const todosFilhos =  pai.childNodes;
+        for (let index = todosFilhos.length - 1; index >= 0; index -= 1){
+            const filhoAtual = todosFilhos[index];
+            if (filhoAtual.id !== "elementoOndeVoceEsta"){
+                filhoAtual.remove();
+            }
+        }
+
+        const segundoEUltimoFilhoDoFilho = document.getElementById('segundoEUltimoFilhoDoFilho')
+        segundoEUltimoFilhoDoFilho.remove();
+    </script>
+  </main>
