@@ -1,0 +1,12 @@
+div#res{
+    border-radius: 30px;
+    margin-top: 20px;
+    text-align: center;
+    border: 2px solid red;
+    width: 150px;
+    height: 20px;
+    
+}
+body{
+    background-color: bisque;
+}
