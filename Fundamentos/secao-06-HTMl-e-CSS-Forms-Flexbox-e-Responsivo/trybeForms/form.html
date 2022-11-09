@@ -7,6 +7,9 @@
     <title>Document</title>
 </head>
 <body>
+    <header>
+        <h2>Preencha o Formulário abaixo:</h2>
+    </header>
     <form action="" method="get">
         <section id="nome">
             <label for="full-name">Nome:</label>
@@ -18,7 +21,7 @@
         </section>
         <section id="destino">
            <p>Selecione seu destino preferido:</p>
-           <label for=""></label>
+          
            <input type="radio" name="destino" id="cidade" value="cidade">Cidade
            <input type="radio" name="destino" id="campo" value="campo">Campo
            <input type="radio" name="destino" id="campo" value="praia">Praia
@@ -28,7 +31,26 @@
             <p>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</p>
             <textarea name="texto" id="meuTexto" cols="30" rows="10" maxlength="500" placeholder="Escreva aqui sua resposta..."></textarea>
         </section>
-
+        <section>
+            <p>Selecione abaixo a melhor data para a viagem:</p>
+            <label for="data-viagem">
+                <input type="date" name="data" id="data-viagem">
+            </label>
+        </section>
+        <br>
+        <section>
+            <label for="Receber">
+            <input type="checkbox" name="ReceberOportunidades" id="Receber">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
+            </label>    
+        </section>
+        <section>
+            <label for="Imagens">
+            <input type="checkbox" name="ConcordoImagens" id="Imagens">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
+            </label>    
+        </section>
+        <br>
+        <button type="submit" id="button-enviar">Enviar Formulário</button>
     </form>
+    <script src="/trybeForms/script.js"></script>
 </body>
 </html>
