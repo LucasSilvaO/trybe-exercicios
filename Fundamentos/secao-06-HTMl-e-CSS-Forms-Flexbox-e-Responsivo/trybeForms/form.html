@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get">
+        <section id="nome">
+            <label for="full-name">Nome:</label>
+            <input type="text" name="name" id="full-name" minlength="10"  maxlength="40">
+        </section>
+        <section>
+            <label for="type-email">E-mail:</label>
+            <input type="email" name="email" id="type-email" minlength="10"  maxlength="50">
+        </section>
+        <section id="destino">
+           <p>Selecione seu destino preferido:</p>
+           <label for=""></label>
+           <input type="radio" name="destino" id="cidade" value="cidade">Cidade
+           <input type="radio" name="destino" id="campo" value="campo">Campo
+           <input type="radio" name="destino" id="campo" value="praia">Praia
+           <input type="radio" name="destino" id="campo" value="montanhas">Montanhas
+        </section>
+        <section>
+            <p>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</p>
+            <textarea name="texto" id="meuTexto" cols="30" rows="10" maxlength="500" placeholder="Escreva aqui sua resposta..."></textarea>
+        </section>
+
+    </form>
+</body>
+</html>
